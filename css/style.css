@@ -1,0 +1,117 @@
+/*Header*/
+
+.masthead {
+  padding: 1em 0;
+  background-image: url("https://images.unsplash.com/photo-1421435371524-d26441ec7dda?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: raleway, sans-serif;
+  text-align: center;
+  height: 650px;
+}
+
+.top-navigation > ul > li {
+  display: inline-block;
+  float: left; 
+  padding-right: 1em;
+  font-size: 1.15em;  
+}
+
+.masthead .top-navigation .home {
+  font-weight: 900;
+}
+
+.top-navigation > ul > li:hover {
+color: #D3D3D3;
+cursor: pointer;
+}
+
+.masthead-name {
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 100;
+}
+
+.masthead-job {
+  font-size: 1.75em;
+  font-weight: 100;
+  margin-top: -1em;
+}
+.heading {
+  padding-top: 10em;
+}
+
+/*Introduction Section*/
+
+.introduction {
+  font-family: raleway;
+  font-size: 1.15em;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  font-weight: 100;
+  text-align: center;
+}
+.introduction .introduction-image {
+  border-radius: 8em;
+  border: solid 1px;
+  width: 8em;
+  height: 8em;
+  text-align: center;
+}
+
+/*Projects Section*/
+
+.projects {
+  background-color: #f3f3f3;
+  font-family: raleway;
+  text-align: center;
+  height: 400px;
+}
+
+/* Footer Section */
+
+.social {
+ background-color:#8CC0BE;
+ font-family: Raleway, sans-serif;
+ text-align: center; 
+ height: 300px;
+}
+
+.social .social-links > li {
+  display: inline-block;
+  margin-right: 1em;
+  padding-top: 2em;
+  padding-right: 1.25em;
+}
+
+h2 {
+  color: #325D80;
+  padding-top: 0.75em;
+  font-family: cabin;
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+h6 {
+  color: #8C5A41;
+  margin-top: -2em;
+  font-family: cabin;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+#made-by {
+  padding-top: 4em;
+  font-size: 0.75em;
+  color: white;
+}
+
+/* Hex Colours from Background Picture: 
+Light Blue: #8CC0BE
+Dark Blue: #325D80
+Brown Red: #8C5A41
+*/
+
