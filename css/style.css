@@ -56,11 +56,11 @@ cursor: pointer;
 }
 
 #intro-image {
-  border-radius: 5px;
-  border 1px solid black;
+  border-radius: 10px;
+  border: 2px solid #8CC0BE;
 }
 
-.introduction > p {
+.introduction .introduction-about > p {
   margin-top: 2em;
 }
 
