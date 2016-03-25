@@ -50,16 +50,18 @@ cursor: pointer;
   width: 40%;
   margin-left: auto;
   margin-right: auto;
-  height: 400px;
+  height: 600px;
   font-weight: 100;
   text-align: center;
 }
-.introduction .introduction-image {
-  border-radius: 8em;
-  border: solid 1px;
-  width: 8em;
-  height: 8em;
-  text-align: center;
+
+#intro-image {
+  border-radius: 5px;
+  border 1px solid black;
+}
+
+.introduction > p {
+  margin-top: 2em;
 }
 
 /*Projects Section*/
@@ -68,7 +70,30 @@ cursor: pointer;
   background-color: #f3f3f3;
   font-family: raleway;
   text-align: center;
-  height: 400px;
+  height: 1000px;
+}
+
+.times-image {
+border: 2px solid #8CC0BE;
+border-radius: 5px;  
+}
+
+.karma-image {
+margin-bottom: 2em;
+margin-top: 2em;
+border: 2px solid #8CC0BE;
+border-radius: 5px;   
+}
+
+.about-me-image {
+  border: 2px solid #8CC0BE;
+  border-radius: 5px;
+}
+
+img:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  cursor:pointer;
 }
 
 /* Footer Section */
@@ -85,6 +110,15 @@ cursor: pointer;
   margin-right: 1em;
   padding-top: 2em;
   padding-right: 1.25em;
+} 
+
+.fa:hover {
+  color:  #504949;
+  cursor: pointer;
+}
+
+.fa {
+  color: #000000;
 }
 
 h2 {
@@ -93,6 +127,8 @@ h2 {
   font-family: cabin;
   font-size: 2.5em;
   font-weight: lighter;
+  margin-top: 0;
+  text-decoration: none;
 }
 
 h6 {
@@ -101,7 +137,9 @@ h6 {
   font-family: cabin;
   font-size: 1em;
   font-weight: lighter;
+  text-decoration: none;
 }
+
 
 #made-by {
   padding-top: 4em;
