@@ -152,6 +152,12 @@ h6 {
   color: white;
 }
 
+@media only screen and (max-width: 500px)
+{
+.masthead {
+  height: 300px;}
+} 
+
 /* Hex Colours from Background Picture: 
 Light Blue: #8CC0BE
 Dark Blue: #325D80
