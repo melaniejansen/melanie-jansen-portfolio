@@ -23,8 +23,8 @@
 }
 
 .top-navigation > ul > li:hover {
-color: #D3D3D3;
-cursor: pointer;
+  color: #D3D3D3;
+  cursor: pointer;
 }
 
 .masthead-name {
@@ -74,15 +74,15 @@ cursor: pointer;
 }
 
 .times-image {
-border: 2px solid #8CC0BE;
-border-radius: 5px;  
+  border: 2px solid #8CC0BE;
+  border-radius: 5px;  
 }
 
 .karma-image {
-margin-bottom: 2em;
-margin-top: 2em;
-border: 2px solid #8CC0BE;
-border-radius: 5px;   
+  margin-bottom: 2em;
+  margin-top: 2em;
+  border: 2px solid #8CC0BE;
+  border-radius: 5px;   
 }
 
 .about-me-image {
@@ -140,12 +140,16 @@ h6 {
   text-decoration: none;
 }
 
-
 #made-by {
   padding-top: 4em;
   font-size: 0.75em;
   color: white;
 }
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    height: 300px;}
+  }
 
 /* Hex Colours from Background Picture: 
 Light Blue: #8CC0BE
